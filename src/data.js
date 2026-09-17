@@ -183,10 +183,9 @@ export const PROJECTS = [
   {
     title: "BookWise Accounting",
     subtitle: "Full-stack accounting platform",
-    art: null,
-    image: "/accounting-app.png",
-    status: "Live",
-    href: "https://bookwise-web.agreeablebay-fda76882.westus2.azurecontainerapps.io/",
+    art: "ledger",
+    status: "Source",
+    href: "https://github.com/ralphcomplido/bookwise",
     blurb:
       "A cloud-based double-entry accounting application: chart of accounts, journal entries, balanced debit/credit validation, and reporting, secured with ASP.NET Core Identity, bearer tokens, and role-based authorization.",
     bullets: [
@@ -199,8 +198,7 @@ export const PROJECTS = [
   {
     title: "Student Tracker",
     subtitle: ".NET MAUI mobile app",
-    art: null,
-    image: "/student-tracker.png",
+    art: "tracker",
     status: "Source",
     href: "https://github.com/ralphcomplido/.NET-MAUI-Mobile-App-Term-Course-Assessment",
     blurb:
@@ -214,8 +212,7 @@ export const PROJECTS = [
   {
     title: "RC Portfolio",
     subtitle: "This site",
-    art: null,
-    image: "/portfolio.png",
+    art: "browser",
     status: "Source",
     href: "https://github.com/ralphcomplido/ralph-portfolio",
     blurb:

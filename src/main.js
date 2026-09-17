@@ -78,6 +78,92 @@ const art = {
         <text x="230" y="120">+25 pts</text>
       </g>
     </svg>`,
+  ledger: `
+    <svg viewBox="0 0 340 180" class="h-full w-full" aria-hidden="true">
+      <defs>
+        <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#22d3ee"/>
+          <stop offset="100%" stop-color="#7c6cff"/>
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="url(#lg)" stroke-width="1.4" stroke-linecap="round">
+        <rect x="70" y="28" width="200" height="120" rx="10"/>
+        <path d="M70 54h200"/>
+        <path d="M170 54v72"/>
+        <path d="M86 126h168" opacity="0.45"/>
+      </g>
+      <g fill="url(#lg)" opacity="0.75">
+        <rect x="86" y="66" width="56" height="7" rx="3.5"/>
+        <rect x="86" y="86" width="42" height="7" rx="3.5"/>
+        <rect x="86" y="106" width="50" height="7" rx="3.5"/>
+        <rect x="186" y="66" width="48" height="7" rx="3.5"/>
+        <rect x="186" y="86" width="58" height="7" rx="3.5"/>
+        <rect x="186" y="106" width="42" height="7" rx="3.5"/>
+      </g>
+      <g fill="#c9c4ff" font-size="9" font-family="ui-monospace, monospace">
+        <text x="86" y="47">DR</text>
+        <text x="186" y="47">CR</text>
+      </g>
+      <text x="170" y="142" fill="#7ee7f5" font-size="8.5" font-family="ui-monospace, monospace"
+            text-anchor="middle" letter-spacing="1">DR = CR</text>
+    </svg>`,
+  tracker: `
+    <svg viewBox="0 0 340 180" class="h-full w-full" aria-hidden="true">
+      <defs>
+        <linearGradient id="tk" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#38bdf8"/>
+          <stop offset="100%" stop-color="#7c6cff"/>
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="url(#tk)" stroke-width="1.4" stroke-linejoin="round">
+        <rect x="62" y="26" width="200" height="34" rx="9"/>
+        <rect x="76" y="72" width="186" height="34" rx="9"/>
+        <rect x="90" y="118" width="172" height="34" rx="9"/>
+        <rect x="76" y="37" width="13" height="13" rx="3.5"/>
+        <rect x="90" y="83" width="13" height="13" rx="3.5"/>
+        <rect x="104" y="129" width="13" height="13" rx="3.5" opacity="0.5"/>
+      </g>
+      <g fill="none" stroke="#7ee7f5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m79 43.5 2.6 2.8 5-5.6"/>
+        <path d="m93 89.5 2.6 2.8 5-5.6"/>
+      </g>
+      <g fill="#c9c4ff" font-size="9" font-family="ui-monospace, monospace">
+        <text x="99" y="48">TERM</text>
+        <text x="113" y="94">COURSE</text>
+        <text x="127" y="140" opacity="0.6">ASSESSMENT</text>
+      </g>
+      <g fill="none" stroke="url(#tk)" stroke-width="1.2" opacity="0.45">
+        <path d="M69 60v12h7"/>
+        <path d="M83 106v12h7"/>
+      </g>
+    </svg>`,
+  browser: `
+    <svg viewBox="0 0 340 180" class="h-full w-full" aria-hidden="true">
+      <defs>
+        <linearGradient id="pf" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#7c6cff"/>
+          <stop offset="55%" stop-color="#c9c4ff"/>
+          <stop offset="100%" stop-color="#22d3ee"/>
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="url(#pf)" stroke-width="1.4">
+        <rect x="60" y="26" width="220" height="128" rx="11"/>
+        <path d="M60 52h220"/>
+      </g>
+      <g fill="url(#pf)" opacity="0.8">
+        <circle cx="76" cy="39" r="3.2"/>
+        <circle cx="88" cy="39" r="3.2"/>
+        <circle cx="100" cy="39" r="3.2"/>
+        <rect x="118" y="35.5" width="86" height="7" rx="3.5" opacity="0.4"/>
+      </g>
+      <text x="170" y="108" fill="url(#pf)" font-size="40" font-weight="600"
+            font-family="ui-monospace, SFMono-Regular, monospace" text-anchor="middle"
+            letter-spacing="2">RC</text>
+      <g fill="url(#pf)" opacity="0.45">
+        <rect x="120" y="126" width="100" height="6" rx="3"/>
+        <rect x="142" y="140" width="56" height="6" rx="3"/>
+      </g>
+    </svg>`,
 };
 
 /* ---------------------------------------------------------------
